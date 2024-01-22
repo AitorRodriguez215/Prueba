@@ -20,5 +20,7 @@ git commit -m “Añadido índice del libro.”
 Ejercicio 5
 git echo "Capítulo 4: Repositorios remotos"> indice.txt
 git diff
-git emand -m “Añadido capítulo 3 sobre gestión de ramas”
 Ejercicio 6
+git show
+git emand -m “Añadido capítulo 3 sobre gestión de ramas”
+git show

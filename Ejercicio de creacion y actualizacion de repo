@@ -1,10 +1,24 @@
 Ejercicio 1 
-git init 
 git config --global user.email correopestoso09@gmail.com
 git config --global user.name aitor
 git status
 Ejercicio 2
-
+mkdir libro
+cd libro
+git init
+dir
 Ejercicio 3
+git status
+git echo "Capítulo 1: Introducción a Git"> indice.txt
+git echo "Capítulo 2: Flujo de trabajo básico" > indice.txt
+git echo "Capítulo 3: Repositorios remotos"> indice.txt
+git status
+git add indice.txt
+git status
 Ejercicio 4
+git commit -m “Añadido índice del libro.”
 Ejercicio 5
+git echo "Capítulo 4: Repositorios remotos"> indice.txt
+git diff
+git emand -m “Añadido capítulo 3 sobre gestión de ramas”
+Ejercicio 6

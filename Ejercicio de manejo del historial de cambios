@@ -1,0 +1,13 @@
+git clone https://github.com/asalber/libro-git.git 
+cd libro-git
+git reset --hard 8c808
+git remote remove origin
+Ejercicio 1
+git config --global user.email "correopestoso09@gmail.com"
+git log
+mkdir capitulos
+cd capitulos
+echo "Git es un sistema de control de versiones ideado por Linus Torvalds"> capitulo1.txt
+git add .
+git log
+Ejercicio 2

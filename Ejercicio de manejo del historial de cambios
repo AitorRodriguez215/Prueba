@@ -22,3 +22,8 @@ git commit -m "Añadido capítulo 3"
 git log
 git diff bd7f f17a
 Ejercicio 4
+cd ..
+echo "Capítulo 5: Conceptos avanzados"> indice.txt
+git commit -m "Añadido capítulo 5"
+git add indice.txt
+git show indice.txt
